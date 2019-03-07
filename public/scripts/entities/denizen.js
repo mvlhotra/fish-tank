@@ -46,8 +46,8 @@ class Denizen {
         width: this.width,
         height: this.height,
       },
-      x: this.position.x - Math.floor(this.width/2),
-      y: this.position.y - Math.floor(this.height/2),
+      x: this.position.x - Math.floor(this.width / 2),
+      y: this.position.y - Math.floor(this.height / 2),
     };
   }
 

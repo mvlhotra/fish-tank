@@ -1,21 +1,36 @@
 <html>
-  <head>
-    <title>Bloop! Hello Fishes</title>
-    <script src='/vendor/jquery-3.2.1.js'></script>
-    <script src='/scripts/constants.js'></script>
-    <script src='/scripts/helpers.js'></script>
-    <script src='/scripts/fishtank.js'></script>
 
-    <script src='/scripts/entities/denizen.js'></script>
-    <script src='/scripts/entities/starter.js'></script>
-    <script src='/scripts/entities/seed.js'></script>
-    <script src='/scripts/entities/fish.js'></script>
-    <script src='/scripts/entities/go_fish.js'></script>
-    <script src='/scripts/entities/switch_fish.js'></script>
+<head>
+  <title>Bloop! Hello Fishes</title>
+  <script src='/vendor/jquery-3.2.1.js'></script>
+  <script src='/scripts/constants.js'></script>
+  <script src='/scripts/helpers.js'></script>
+  <script src='/scripts/fishtank.js'></script>
 
-    <script src='/scripts/driver.js'></script>
-  </head>
-  <body>
-    <div id='fishtank' style="position: relative"></div>
-  </body>
+  <script src='/scripts/entities/denizen.js'></script>
+  <script src='/scripts/entities/starter.js'></script>
+  <script src='/scripts/entities/seed.js'></script>
+  <script src='/scripts/entities/fish.js'></script>
+  <script src='/scripts/entities/go_fish.js'></script>
+  <script src='/scripts/entities/switch_fish.js'></script>
+  <script src='/scripts/entities/bite_fish.js'></script>
+
+  <script src='/scripts/driver.js'></script>
+</head>
+<style>
+  html,
+  body {
+    background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #91EAE4;
+
+  }
+</style>
+
+<body>
+  <div id='fishtank' style="position: relative"></div>
+</body>
+
 </html>
